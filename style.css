@@ -9,3 +9,10 @@
 
 .education-note{font-size:13px;line-height:1.8;color:#737579;margin-top:28px;max-width:680px}
 @media(max-width:600px){.education-note{font-size:12px}}
+
+.work-intro{font-size:18px;line-height:1.6;letter-spacing:-.015em;color:#626367;margin:0 45px 38px;max-width:720px}
+.work-heading{display:block;min-width:0}
+.work-summary{display:block;font-size:14px;line-height:1.7;color:#626367;max-width:640px;margin-top:16px}
+@media(max-width:1200px){.work-intro{margin-left:20px;margin-right:20px}}
+@media(max-width:900px){.work-intro{font-size:16px}.work-summary{font-size:13px}}
+@media(max-width:600px){.about-side{display:block;padding-top:27px}.about-side p+p{margin-top:16px}.work-intro{font-size:16px;margin:0 0 26px}.work-heading{grid-column:1;grid-row:1}.work-summary{font-size:13px;margin-top:12px;line-height:1.75}.work-type{margin-top:3px}.work-arrow{align-self:start;margin-top:8px}}
